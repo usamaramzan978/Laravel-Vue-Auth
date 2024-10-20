@@ -1,4 +1,3 @@
-// composables/useAuth.js
 import http from 'axios';
 import { setToken, removeToken } from './Token';
 import { useAuthStore } from '../stores/auth';
