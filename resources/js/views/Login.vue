@@ -22,7 +22,7 @@ async function onSubmit() {
 
     if (result.success) {
         resetForm();
-        // router.push({ name: 'dashboard' });
+        router.push({ name: 'dashboard' });
         console.log('Logged in:', result.user);
     } else {
         console.error('Login failed');

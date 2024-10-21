@@ -1,1 +1,23 @@
-@import url('./base.css');
+@import './base.css';
+
+  button {
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+  }
+  a
+  {
+    text-decoration: none;
+  }
+  li
+  {
+    list-style: none;
+  }
+
+  @media (max-width:768px) {
+    .main {
+      padding-left: 6rem;
+    }
+  }

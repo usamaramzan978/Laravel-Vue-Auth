@@ -1,17 +1,10 @@
 <template>
     <div>
-        <div class="container">
-
-            <Navbar />
-            <main>
-                <router-view />
-            </main>
-        </div>
+        <router-view />
     </div>
 </template>
 
 <script setup>
-import Navbar from './components/Navbar.vue';
 </script>
 
 <style lang="css" scoped></style>
